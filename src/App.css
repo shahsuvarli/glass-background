@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+  justify-content: center;
+}
+/* body {
+  background: linear-gradient(blue 50%, red, green);
+} */
+/* .box {
+  background: radial-gradient(yellow, darkorange);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+} */
+.glass {
+  /* background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  ); */
+  /* backdrop-filter: blur(10px); */
+  /* -webkit-backdrop-filter: blur(10px); */
+  /* border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); */
+  width: 500px;
+  height: 500px;
+}
+.inner-box {
+  background-color: green;
+  /* width: 200px; */
+  /* height: 200px; */
+  border-radius: 50%;
+}
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png);
+}
+input {
+  height: 60px;
+  font-size: 30px;
+  width: 290px;
+  margin-right: 10px;
+  color: rgb(32, 83, 232);
+}
+input:focus {
+  border: none;
+}
+::placeholder {
+  color: dodgerblue;
+}
+.main {
+  margin-top: 20px;
+  width: 350px;
+  height: 500px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: rgb(207, 233, 202);
+}
+.screen {
+  width: 320px;
+  border: 3px solid white;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  border-radius: 5px;
+}
+.keyboard {
+  width: 320px;
+  height: 320px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-radius: 5px;
+  border: 3px solid white;
+}
+/* #0 {
+  background-color: red !important;
+} */
+button {
+  border: 0.5px solid white;
+  width: 80px;
+  height: 80px;
+  font-size: 20px;
+  background-color: rgb(95, 239, 247);
+  font-weight: bold;
+  color: black;
+}
+button:hover {
+  background-color: white;
+  cursor: pointer;
+  color: black;
+}
+.number {
+  background-color: rgb(32, 83, 232);
+  color: white;
+  font-weight: bold;
+  border: 0.5px solid white;
+}
